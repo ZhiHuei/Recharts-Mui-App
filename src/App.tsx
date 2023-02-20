@@ -1,7 +1,7 @@
-import Visualisation from "./Visualisation";
+import Main from "src/Main";
 
 function App() {
-  return <Visualisation />;
+  return <Main />;
 }
 
 export default App;

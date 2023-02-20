@@ -1,9 +1,9 @@
 import { FC } from "react";
 import { Line, Tooltip } from "recharts";
-import LineChart, { renderXAxis, renderYAxis } from "src/components/LineChart";
+import LineChart, { renderXAxis, renderYAxis } from "src/ui-components/LineChart";
 import useReadCSV from "src/hook/useReadCSV";
 
-export type AirQuality = {
+export type AirPollutantsConcentration = {
   date: Date;
   co: number;
   no: number;
@@ -15,8 +15,8 @@ export type AirQuality = {
   nh3: number;
 };
 
-const Visualisation: FC<{}> = () => {
-  const data = useReadCSV<AirQuality>("/data/delhi_aqi.csv", {
+const AirQuality: FC<{}> = () => {
+  const data = useReadCSV<AirPollutantsConcentration>("/data/delhi_aqi.csv", {
     transform: (value, header) => {
       if (header !== "date") {
         return Number(value);
@@ -47,4 +47,4 @@ const Visualisation: FC<{}> = () => {
   );
 };
 
-export default Visualisation;
+export default AirQuality;

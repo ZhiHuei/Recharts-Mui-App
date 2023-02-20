@@ -1,5 +1,14 @@
 # Dataset 
 https://www.kaggle.com/datasets/deepaksirohiwal/delhi-air-quality?resource=download
+1) investigate spike in no in a certain period. See if it repeats the subsequent year. Gauge the optimal level. 
+2) investigate the correlation between the ozone and carbon monoxide. certain period where the corabon monoxide level was low and ozone was high. what causes it? some deliberate effort to reduce certain pollutant and why? 
+3) the trend of air quality in delhi. if it improve year over year. 
+
+https://www.kaggle.com/datasets/ksabishek/product-sales-data?resource=download
+1) What was causing the drop in revenue in a given year? 
+2) Do we maintain the same profit margin, ie. quantity sold against the revenue obtained over the years. 
+3) Which product has the highest profit margin? 
+4) Evaluate the impact if the management has decided to drop a product in a given year.
 
 # Getting Started with Create React App
 

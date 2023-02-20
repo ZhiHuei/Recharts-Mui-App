@@ -10,14 +10,8 @@ import {
   YAxis,
 } from "recharts";
 import { AxisInterval, BaseAxisProps } from "recharts/types/util/types";
-import ResponsiveContainerWrapper from "./ResponsiveContainerWrapper";
-
-const height = 600;
-
-const getSidePadding = (noItems: number): number =>
-  350 / (noItems > 1 ? noItems - 1 : 1) + 5;
-
-const tick = { fontSize: 12 };
+import ResponsiveContainerWrapper from "src/ui-components/ResponsiveContainerWrapper";
+import { getSidePadding, height, tick } from "src/ui-components/common";
 
 interface RenderXAxisProps
   extends Pick<BaseAxisProps, "tickLine" | "tickFormatter"> {
@@ -86,7 +80,7 @@ const LineChart = <T,>({
       direction="column"
       justifyContent="center"
     >
-      <Grid item sx={{ alignSelf: "center" }}>
+      <Grid item sx={{ alignSelf: "center", margin: 2 }}>
         <Typography textTransform="uppercase" variant="h5">
           {chartTitle}
         </Typography>
