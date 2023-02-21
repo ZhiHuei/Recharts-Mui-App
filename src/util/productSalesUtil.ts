@@ -25,6 +25,7 @@ const initialValue: IAggregation = {
 export const aggregateProductSalesByYear = (data: ProductSalesRevenue[]) => {
   // initiliase the years
   const aggregatedData = new Map<number, IAggregation>();
+  
   for (var i = 0; i < 12; i++) {
     aggregatedData.set(startYear + i, initialValue);
   }
