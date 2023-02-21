@@ -10,6 +10,8 @@ https://www.kaggle.com/datasets/ksabishek/product-sales-data?resource=download
 3) Which product has the highest profit margin? 
 4) Evaluate the impact if the management has decided to drop a product in a given year.
 
+https://nus-cs5346.web.app/productsales
+https://nus-cs5346.web.app/airquality
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
