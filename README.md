@@ -1,60 +1,27 @@
 # Dataset 
+
+## Air Quality of Delhi 
 https://www.kaggle.com/datasets/deepaksirohiwal/delhi-air-quality?resource=download
-1) investigate spike in no in a certain period. See if it repeats the subsequent year. Gauge the optimal level. 
-2) investigate the correlation between the ozone and carbon monoxide. certain period where the corabon monoxide level was low and ozone was high. what causes it? some deliberate effort to reduce certain pollutant and why? 
-3) the trend of air quality in delhi. if it improve year over year. 
 
+Queries: 
+1.	Investigate the spike in no in a certain period. What are the patterns in subsequent year?  What is the optimal level? 
+2.	Investigate the correlation between the ozone and carbon monoxide. There was a certain period where the NO level was low and ozone was high. What causes it? Are there deliberate efforts to reduce a specific pollutant and why?  
+3.	The trend of air quality in Delhi. Did it improve year over year?
+
+
+## Product Sales Data of A Company 
 https://www.kaggle.com/datasets/ksabishek/product-sales-data?resource=download
-1) What was causing the drop in revenue in a given year? 
-2) Do we maintain the same profit margin, ie. quantity sold against the revenue obtained over the years. 
-3) Which product has the highest profit margin? 
-4) Evaluate the impact if the management has decided to drop a product in a given year.
+1.	What was causing the drop in revenue of a product each year? 
+2.	Did company maintain the same profit margin?  ie. quantity sold against the revenue obtained over the years.
+3.	Which product has the highest profit margin?
+4.	Evaluate the impact if the management has decided to drop a product in a given year.
 
-https://nus-cs5346.web.app/productsales
-https://nus-cs5346.web.app/airquality
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Demo
+1. https://nus-cs5346.web.app/productsales
+2. https://nus-cs5346.web.app/airquality
 
-## Available Scripts
 
-In the project directory, you can run:
-
-### `yarn start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+# To Start the Application Locally 
+1. yarn install
+2. yarn start 
