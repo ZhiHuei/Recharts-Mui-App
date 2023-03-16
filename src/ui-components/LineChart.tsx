@@ -87,10 +87,15 @@ const LineChart = <T,>({
       </Grid>
       <Grid item sx={{ height: "100%", width: "100%" }}>
         <ResponsiveContainerWrapper height={height} width="100%">
-          <RechartsLineChart data={dataPoints} height={height} width={200}>
+          <RechartsLineChart
+            data={dataPoints}
+            height={height}
+            width={300}
+            margin={{ top: 20, right: 20, bottom: 20, left: 50 }}
+          >
             {children}
             <CartesianGrid strokeDasharray="5 5" />
-            <Legend layout="vertical" verticalAlign="middle" align="right" />
+            {/* <Legend layout="vertical" verticalAlign="middle" align="right" /> */}
           </RechartsLineChart>
         </ResponsiveContainerWrapper>
       </Grid>
