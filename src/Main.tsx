@@ -7,8 +7,6 @@ import HdbScatter from "src/components/hdbScatter";
 const Main = () => {
   return (
     <Routes>
-      <Route path="/airquality" element={<AirQuality />} />
-      <Route path="/productsales" element={<ProductSales />} />
       <Route path="/hdb-lines" element={<HdbVisualisation />} />
       <Route path="/hdb-scatter" element={<HdbScatter />} />
     </Routes>
